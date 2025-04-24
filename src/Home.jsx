@@ -4,6 +4,7 @@ import Header from './Component/Header'
 import Partner from './Component/Partner'
 import Apply from './Component/Apply'
 import Service from './Component/Service'
+import Content from './Component/Content'
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <Partner />
       <Apply />
       <Service/>
+      <Content/>
     </>
   );
 }

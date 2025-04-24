@@ -2,7 +2,7 @@ import React from 'react'
 
 const Service = () => {
   return (
-    <div className="md:w-full overflow-x-hidden md:h-screen font-urbanist  ">
+    <div className="md:w-full overflow-x-hidden font-urbanist  ">
       <div className=' bg-[url("/service.jpeg")] bg-no-repeat bg-cover pb-20  '>
         <div className="md:w-6xl mx-auto px-4  ">
           <div className="flex justify-center pt-30 items-center ">
@@ -310,7 +310,7 @@ const Service = () => {
               <strong> internee.pk</strong>.
             </div>
             <div className="flex justify-center items-center">
-              <div className="flex justify-center items-center px-10 py-3 bg-primary text-white font-bold rounded-2xl ">
+              <div className="flex justify-center items-center px-10 py-3 hover:bg-secondry cursor-pointer bg-primary text-white font-bold rounded-2xl ">
                 Start Your Journey Now{" "}
                 <span>
                   <svg
