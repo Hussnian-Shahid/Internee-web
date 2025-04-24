@@ -2,26 +2,26 @@ import React from 'react'
 
 const Partner = () => {
   return (
-    <div className='md:px-16.5 py-17 ' >
-      <div className='text-center text-[22px] font-urbanist' >Collaborated with Trusted Worldwide Partners</div>
-      <div className='flex justify-center items-center gap-35 py-5 ' >
-        <div>
-          <img className='w-35' src="/partner1.png" alt="" />
+    <div className='md:px-16.5 px-4 py-15 md:py-17 ' >
+      <div className='text-center  md:text-[22px] font-urbanist' >Collaborated with Trusted Worldwide Partners</div>
+      <div className='grid grid-cols-2 md:grid-cols-6 md:gap-35  space-y-10 pt-10  ' >
+        <div className='flex justify-center items-center' >
+          <img className='md:w-40  w-32' src="/partner1.png" alt="" />
         </div>
-        <div>
-          <img className='w-35' src="/partner2.png" alt="" />
+        <div className='flex justify-center items-center' >
+          <img className='md:w-40  w-32' src="/partner2.png" alt="" />
         </div>
-        <div>
-          <img className='w-35' src="/partner3.png" alt="" />
+        <div className='flex justify-center items-center' >
+          <img className='md:w-40  w-32' src="/partner3.png" alt="" />
         </div>
-        <div>
-          <img className='w-35' src="/partner4.png" alt="" />
+        <div className='flex justify-center items-center' >
+          <img className='md:w-40  w-32' src="/partner4.png" alt="" />
         </div>
-        <div>
-          <img className='w-35' src="/partner5.png" alt="" />
+        <div className='flex justify-center items-center' >
+          <img className='md:w-40  w-32' src="/partner5.png" alt="" />
         </div>
-        <div>
-          <img className='w-35' src="/partner6.png" alt="" />
+        <div className='flex justify-center items-center' >
+          <img className='md:w-40  w-32' src="/partner6.png" alt="" />
         </div>
       </div>
     </div>
