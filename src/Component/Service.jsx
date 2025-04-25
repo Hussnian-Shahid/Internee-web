@@ -1,29 +1,36 @@
-import React from 'react'
+import React from "react";
 
 const Service = () => {
   return (
-    <div className="md:w-full overflow-x-hidden font-urbanist  ">
-      <div className=' bg-[url("/service.jpeg")] bg-no-repeat bg-cover pb-20  '>
-        <div className="md:w-6xl mx-auto px-4  ">
-          <div className="flex justify-center pt-30 items-center ">
-            <div className="flex justify-center items-center gap-3 bg-bg-primary rounded-full p-4  mb-5">
+    <div className="md:w-full overflow-x-hidden font-urbanist relative">
+      {/* Blurred background container */}
+      <div className="absolute inset-0 bg-[url('/service.jpeg')] bg-no-repeat bg-cover bg-center filter blur-md"></div>
+
+      {/* Semi-transparent overlay to improve content visibility */}
+      <div className="absolute inset-0 bg-white/30"></div>
+
+      {/* Content container - positioned relative to appear above the blurred bg */}
+      <div className="relative pb-20">
+        <div className="md:w-6xl mx-auto px-4">
+          <div className="flex justify-center pt-30 items-center">
+            <div className="flex justify-center items-center gap-3 bg-bg-primary rounded-full p-4 mb-5">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="text-primary "
+                className="text-primary"
                 width="24"
                 height="24"
                 viewBox="0 0 24 24"
                 fill="none"
                 stroke="currentColor"
-                strokewidth="2"
-                strokelinecap="round"
-                strokelinejoin="round"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               >
                 <rect width="8" height="8" x="3" y="3" rx="2"></rect>
                 <path d="M7 11v4a2 2 0 0 0 2 2h4"></path>
                 <rect width="8" height="8" x="13" y="13" rx="2"></rect>
               </svg>
-              <div className="text-primary  ">Task Management Platform</div>
+              <div className="text-primary">Task Management Platform</div>
             </div>
           </div>
           <div className="text-center font-bold text-3xl md:text-5xl">
@@ -41,9 +48,9 @@ const Service = () => {
           {/* four box */}
           <div className="grid md:grid-cols-2 gap-10">
             {/* box 1 */}
-            <div className="p-10 bg-white  rounded-2xl ">
+            <div className="p-10 bg-white rounded-2xl">
               <div className="inline-block">
-                <div className=" bg-bg-primary px-3 rounded-xl py-3">
+                <div className="bg-bg-primary px-3 rounded-xl py-3">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"
@@ -51,10 +58,10 @@ const Service = () => {
                     viewBox="0 0 24 24"
                     fill="none"
                     stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    class="lucide lucide-briefcase text-primary w-7 h-7"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    className="lucide lucide-briefcase text-primary w-7 h-7"
                   >
                     <path d="M16 20V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
                     <rect width="20" height="14" x="2" y="6" rx="2"></rect>
@@ -71,8 +78,8 @@ const Service = () => {
                 <strong> virtual internships.</strong>
               </div>
 
-              <div className="flex flex-col justify-center gap-4 ">
-                <div className="flex  ">
+              <div className="flex flex-col justify-center gap-4">
+                <div className="flex">
                   <div>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -81,10 +88,10 @@ const Service = () => {
                       viewBox="0 0 24 24"
                       fill="none"
                       stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      class="lucide lucide-circle-check w-5 h-5 text-primary mr-3"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      className="lucide lucide-circle-check w-5 h-5 text-primary mr-3"
                     >
                       <circle cx="12" cy="12" r="10"></circle>
                       <path d="m9 12 2 2 4-4"></path>
@@ -92,7 +99,7 @@ const Service = () => {
                   </div>
                   <div>Project-based learning</div>
                 </div>
-                <div className="flex  ">
+                <div className="flex">
                   <div>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -101,10 +108,10 @@ const Service = () => {
                       viewBox="0 0 24 24"
                       fill="none"
                       stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      class="lucide lucide-circle-check w-5 h-5 text-primary mr-3"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      className="lucide lucide-circle-check w-5 h-5 text-primary mr-3"
                     >
                       <circle cx="12" cy="12" r="10"></circle>
                       <path d="m9 12 2 2 4-4"></path>
@@ -112,7 +119,7 @@ const Service = () => {
                   </div>
                   <div>Industry-standard Practices</div>
                 </div>
-                <div className="flex  ">
+                <div className="flex">
                   <div>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -121,23 +128,23 @@ const Service = () => {
                       viewBox="0 0 24 24"
                       fill="none"
                       stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      class="lucide lucide-circle-check w-5 h-5 text-primary mr-3"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      className="lucide lucide-circle-check w-5 h-5 text-primary mr-3"
                     >
                       <circle cx="12" cy="12" r="10"></circle>
                       <path d="m9 12 2 2 4-4"></path>
                     </svg>
                   </div>
-                  <div>Protfolio building</div>
+                  <div>Portfolio building</div>
                 </div>
               </div>
             </div>
-            {/* {b0x 2} */}
-            <div className="p-10 bg-white  rounded-2xl ">
+            {/* box 2 */}
+            <div className="p-10 bg-white rounded-2xl">
               <div className="inline-block">
-                <div className=" bg-bg-primary px-3 rounded-xl py-3">
+                <div className="bg-bg-primary px-3 rounded-xl py-3">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"
@@ -145,10 +152,10 @@ const Service = () => {
                     viewBox="0 0 24 24"
                     fill="none"
                     stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    class="lucide lucide-badge-check text-primary w-7 h-7"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    className="lucide lucide-badge-check text-primary w-7 h-7"
                   >
                     <path d="M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z"></path>
                     <path d="m9 12 2 2 4-4"></path>
@@ -165,8 +172,8 @@ const Service = () => {
                 and comprehensive tracking system.
               </div>
 
-              <div className="flex flex-col justify-center gap-4 ">
-                <div className="flex  ">
+              <div className="flex flex-col justify-center gap-4">
+                <div className="flex">
                   <div>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -175,10 +182,10 @@ const Service = () => {
                       viewBox="0 0 24 24"
                       fill="none"
                       stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      class="lucide lucide-circle-check w-5 h-5 text-primary mr-3"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      className="lucide lucide-circle-check w-5 h-5 text-primary mr-3"
                     >
                       <circle cx="12" cy="12" r="10"></circle>
                       <path d="m9 12 2 2 4-4"></path>
@@ -186,7 +193,7 @@ const Service = () => {
                   </div>
                   <div>Skill verification</div>
                 </div>
-                <div className="flex  ">
+                <div className="flex">
                   <div>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -195,10 +202,10 @@ const Service = () => {
                       viewBox="0 0 24 24"
                       fill="none"
                       stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      class="lucide lucide-circle-check w-5 h-5 text-primary mr-3"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      className="lucide lucide-circle-check w-5 h-5 text-primary mr-3"
                     >
                       <circle cx="12" cy="12" r="10"></circle>
                       <path d="m9 12 2 2 4-4"></path>
@@ -206,7 +213,7 @@ const Service = () => {
                   </div>
                   <div>Progress tracking</div>
                 </div>
-                <div className="flex  ">
+                <div className="flex">
                   <div>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -215,10 +222,10 @@ const Service = () => {
                       viewBox="0 0 24 24"
                       fill="none"
                       stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      class="lucide lucide-circle-check w-5 h-5 text-primary mr-3"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      className="lucide lucide-circle-check w-5 h-5 text-primary mr-3"
                     >
                       <circle cx="12" cy="12" r="10"></circle>
                       <path d="m9 12 2 2 4-4"></path>
@@ -230,10 +237,10 @@ const Service = () => {
             </div>
 
             {/* box 3 */}
-            <div className="p-10 bg-white  rounded-2xl ">
+            <div className="p-10 bg-white rounded-2xl">
               <div className="flex justify-center items-center gap-3">
                 <div className="inline-block">
-                  <div className=" bg-bg-primary px-3 rounded-xl py-3">
+                  <div className="bg-bg-primary px-3 rounded-xl py-3">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="24"
@@ -241,10 +248,10 @@ const Service = () => {
                       viewBox="0 0 24 24"
                       fill="none"
                       stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      class="lucide lucide-workflow w-6 h-6 text-primary"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      className="lucide lucide-workflow w-6 h-6 text-primary"
                     >
                       <rect width="8" height="8" x="3" y="3" rx="2"></rect>
                       <path d="M7 11v4a2 2 0 0 0 2 2h4"></path>
@@ -264,10 +271,10 @@ const Service = () => {
             </div>
 
             {/* box 4 */}
-            <div className="p-10 bg-white  rounded-2xl ">
+            <div className="p-10 bg-white rounded-2xl">
               <div className="flex justify-center items-center gap-3">
                 <div className="inline-block">
-                  <div className=" bg-bg-primary px-3 rounded-xl py-3">
+                  <div className="bg-bg-primary px-3 rounded-xl py-3">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="24"
@@ -275,10 +282,10 @@ const Service = () => {
                       viewBox="0 0 24 24"
                       fill="none"
                       stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      class="lucide lucide-book-open w-6 h-6 text-primary"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      className="lucide lucide-book-open w-6 h-6 text-primary"
                     >
                       <path d="M12 7v14"></path>
                       <path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"></path>
@@ -310,7 +317,7 @@ const Service = () => {
               <strong> internee.pk</strong>.
             </div>
             <div className="flex justify-center items-center">
-              <div className="flex justify-center items-center px-10 py-3 hover:bg-secondry cursor-pointer bg-primary text-white font-bold rounded-2xl ">
+              <div className="flex justify-center items-center px-10 py-3 hover:bg-secondry cursor-pointer bg-primary text-white font-bold rounded-2xl">
                 Start Your Journey Now{" "}
                 <span>
                   <svg
@@ -320,10 +327,10 @@ const Service = () => {
                     viewBox="0 0 24 24"
                     fill="none"
                     stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    class="lucide lucide-chevron-right ml-2 mt-1 h-5 w-5"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    className="lucide lucide-chevron-right ml-2 mt-1 h-5 w-5"
                   >
                     <path d="m9 18 6-6-6-6"></path>
                   </svg>
@@ -335,6 +342,6 @@ const Service = () => {
       </div>
     </div>
   );
-}
+};
 
-export default Service
+export default Service;

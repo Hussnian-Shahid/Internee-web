@@ -5,6 +5,7 @@ import Partner from './Component/Partner'
 import Apply from './Component/Apply'
 import Service from './Component/Service'
 import Content from './Component/Content'
+import Career from './Component/Career'
 
 const Home = () => {
   return (
@@ -13,8 +14,9 @@ const Home = () => {
       <Header />
       <Partner />
       <Apply />
-      <Service/>
-      <Content/>
+      <Service />
+      <Content />
+      <Career/>
     </>
   );
 }
