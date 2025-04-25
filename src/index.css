@@ -5,7 +5,7 @@
   --color-primary : #1B56FD;
   --color-secondry : #0118D8;
   --font-urbanist :  "Urbanist", sans-serif ;
-  --color-bg-primary: #cecadccd
+  --color-bg-primary: #cdc9db
 }
 .container{
   background-image: url(./service.jpeg);

@@ -6,6 +6,7 @@ import Apply from './Component/Apply'
 import Service from './Component/Service'
 import Content from './Component/Content'
 import Career from './Component/Career'
+import Mock from './Component/Mock'
 
 const Home = () => {
   return (
@@ -16,7 +17,8 @@ const Home = () => {
       <Apply />
       <Service />
       <Content />
-      <Career/>
+      <Career />
+      <Mock/>
     </>
   );
 }

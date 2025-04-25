@@ -3,15 +3,15 @@ import React from "react";
 const Service = () => {
   return (
     <div className="md:w-full overflow-x-hidden font-urbanist relative">
-      {/* Blurred background container */}
+
       <div className="absolute inset-0 bg-[url('/service.jpeg')] bg-no-repeat bg-cover bg-center filter blur-md"></div>
 
-      {/* Semi-transparent overlay to improve content visibility */}
       <div className="absolute inset-0 bg-white/30"></div>
 
-      {/* Content container - positioned relative to appear above the blurred bg */}
       <div className="relative pb-20">
         <div className="md:w-6xl mx-auto px-4">
+
+          {/* first section */}
           <div className="flex justify-center pt-30 items-center">
             <div className="flex justify-center items-center gap-3 bg-bg-primary rounded-full p-4 mb-5">
               <svg
@@ -33,10 +33,13 @@ const Service = () => {
               <div className="text-primary">Task Management Platform</div>
             </div>
           </div>
+
+          {/* content  */}
           <div className="text-center font-bold text-3xl md:text-5xl">
             <div>Master Real-World Skills with Our Tasks Portal at</div>
             <div>internee.pk</div>
           </div>
+          {/* paragraf */}
           <div className="text-center md:px-50 py-5 md:py-10 text-[18px] md:text-xl">
             "Transform theoretical knowledge into practical expertise through
             our comprehensive task portal. Build, learn, and grow with
