@@ -12,6 +12,7 @@ import Path from './Component/Path'
 import Build from './Component/Build'
 import Coach from './Component/Coach'
 import Feedback from './Component/Feedback'
+import Unlock from './Component/Unlock'
 
 const Home = () => {
   return (
@@ -29,6 +30,7 @@ const Home = () => {
       <Build />
       <Coach />
       <Feedback />
+      <Unlock />
     </>
   );
 }
