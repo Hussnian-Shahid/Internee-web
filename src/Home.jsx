@@ -11,6 +11,7 @@ import Step from './Component/Step'
 import Path from './Component/Path'
 import Build from './Component/Build'
 import Coach from './Component/Coach'
+import Feedback from './Component/Feedback'
 
 const Home = () => {
   return (
@@ -27,6 +28,7 @@ const Home = () => {
       <Path />
       <Build />
       <Coach />
+      <Feedback />
     </>
   );
 }
