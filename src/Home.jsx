@@ -7,6 +7,10 @@ import Service from './Component/Service'
 import Content from './Component/Content'
 import Career from './Component/Career'
 import Mock from './Component/Mock'
+import Step from './Component/Step'
+import Path from './Component/Path'
+import Build from './Component/Build'
+import Coach from './Component/Coach'
 
 const Home = () => {
   return (
@@ -18,7 +22,11 @@ const Home = () => {
       <Service />
       <Content />
       <Career />
-      <Mock/>
+      <Mock />
+      <Step />
+      <Path />
+      <Build />
+      <Coach />
     </>
   );
 }
