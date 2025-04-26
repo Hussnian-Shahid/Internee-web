@@ -3,7 +3,7 @@ import React from 'react'
 const Header = () => {
   return (
     <>
-      <div className="flex md:px-16.5 pt-10 px-4 ">
+      <div className="flex md:px-16.5 pt-10 px-4  md:h-screen ">
         <div className="flex justify-center  flex-col md:w-full ">
           <div className="font-bold font-urbanist text-center text-4xl md:text-start md:text-7xl">
             <div>Looking for</div>
@@ -27,7 +27,7 @@ const Header = () => {
           </div>
         </div>
         <div className="w-full md:flex justify-center items-center hidden ">
-          <img className=" md:h-140" src="/banner.webp" alt="banner" />
+          <img  src="/banner.webp" alt="banner" />
         </div>
       </div>
     </>

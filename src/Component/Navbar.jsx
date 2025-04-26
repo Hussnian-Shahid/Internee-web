@@ -8,21 +8,25 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="flex justify-between md:px-16.5 md:py-4 items-center shadow-2xs px-4 py-4">
+      <div className="flex  sticky z-9999 top-0 bg-white justify-between md:px-16.5 md:py-4 items-center shadow-2xs px-4 py-4">
         <div>
           <img className="md:h-13 h-10 w-auto" src="/logo (1).png" alt="logo" />
         </div>
         <div className="md:flex hidden justify-center items-center gap-7 text-base font-sans">
-          <div className="hover:text-primary">Home</div>
-          <div className="hover:text-primary">Internship</div>
-          <div className="hover:text-primary">Graduate Program</div>
-          <div className="hover:text-primary">Student Ambassador</div>
+          <div className="hover:text-primary cursor-pointer">Home</div>
+          <div className="hover:text-primary cursor-pointer">Internship</div>
+          <div className="hover:text-primary cursor-pointer">
+            Graduate Program
+          </div>
+          <div className="hover:text-primary cursor-pointer">
+            Student Ambassador
+          </div>
         </div>
-        <div className="md:flex hidden justify-center items-center gap-4">
-          <button className="bg-primary text-white px-5 py-2 font-sans rounded-xl hover:bg-white hover:text-black border-[1px] border-primary transition-all duration-300">
+        <div className="md:flex hidden cursor-pointer justify-center items-center gap-4">
+          <button className="bg-primary cursor-pointer text-white px-5 py-2 font-sans rounded-xl hover:bg-white hover:text-black border-[1px] border-primary transition-all duration-300">
             Job Portal
           </button>
-          <button className="bg-white text-black px-5 py-2 rounded-xl hover:bg-primary hover:text-white border-[1px] border-primary transition-all duration-300">
+          <button className="bg-white text-black px-5 py-2 rounded-xl hover:bg-primary hover:text-white  transition-all cursor-pointer duration-300">
             Dashboard
           </button>
           <div className="h-12 w-12 bg-[#e5e5e5] shadow-2xl flex justify-center items-center rounded-full">
@@ -47,12 +51,12 @@ const Navbar = () => {
 
       {/* Mobile Menu Dropdown */}
       {Menu && (
-        <div className="w-full md:hidden flex flex-col justify-start gap-7 text-base px-8 pt-10">
-          <div className="hover:text-primary">Home</div>
-          <div className="hover:text-primary">Internship</div>
-          <div className="hover:text-primary">Graduate Program</div>
-          <div className="hover:text-primary">Student Ambassador</div>
-          <div className="hover:text-primary">Dashboard</div>
+        <div className="w-full md:hidden flex flex-col justify-start fixed bg-white transition-all duration-300 ease-in-out gap-7 text-base px-8 py-10">
+          <div className="hover:text-primary cursor-pointer">Home</div>
+          <div className="hover:text-primary cursor-pointer">Internship</div>
+          <div className="hover:text-primary cursor-pointer">Graduate Program</div>
+          <div className="hover:text-primary cursor-pointer">Student Ambassador</div>
+          <div className="hover:text-primary cursor-pointer">Dashboard</div>
         </div>
       )}
     </>

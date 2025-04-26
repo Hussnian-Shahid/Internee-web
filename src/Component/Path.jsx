@@ -4,9 +4,9 @@ const Path = () => {
   return (
     <>
       <div className="md:w-full overflow-x-hidden font-urbanist relative py-20 ">
-        <div className="absolute inset-0 bg-[url('/service3.jpeg')] bg-no-repeat bg-cover bg-center filter blur-md"></div>
+        <div className="absolute inset-0 bg-[url('/service3.jpeg')] bg-no-repeat bg-cover bg-center filter"></div>
 
-        <div className="absolute inset-0 bg-white/30"></div>
+        <div className="absolute inset-0 bg-white/75"></div>
 
         <div className="relative ">
           <div className="md:w-6xl mx-auto px-4">

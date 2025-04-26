@@ -3,11 +3,11 @@ import React from 'react'
 const Build = () => {
   return (
     <div className="md:w-full py-20 overflow-x-hidden font-urbanist relative">
-      <div className="md:w-6xl mx-auto px-4">
+      <div className="md:w-7xl mx-auto px-4">
         {/* four boxsssss */}
         <div className="grid md:grid-cols-2 grid-cols-1 gap-10 mb-20 ">
           {/* 1..boxx */}
-          <div className="p-8 hover:scale-102 transition duration-300 ease-in-out  hover:scale-1.1 bg-white shadow-2xl rounded-2xl">
+          <div className="p-8 hover:scale-102 transition duration-300 ease-in-out  hover:scale-1.1 bg-white shadow-xl rounded-2xl">
             <div className="flex  items-center gap-3">
               <div className="inline-block">
                 <div className="bg-bg-primary px-3 rounded-xl py-3">
@@ -42,7 +42,7 @@ const Build = () => {
             </div>
           </div>
           {/* 2..boxx */}
-          <div className="p-8 hover:scale-102 transition duration-300 ease-in-out  hover:scale-1.1 bg-white shadow-2xl rounded-2xl">
+          <div className="p-8 hover:scale-102 transition duration-300 ease-in-out  hover:scale-1.1 bg-white shadow-xl rounded-2xl">
             <div className="flex  items-center gap-3">
               <div className="inline-block">
                 <div className="bg-bg-primary px-3 rounded-xl py-3">
@@ -74,7 +74,7 @@ const Build = () => {
             </div>
           </div>
           {/* 3..boxx */}
-          <div className="p-8 hover:scale-102 transition duration-300 ease-in-out  hover:scale-1.1 bg-white shadow-2xl rounded-2xl">
+          <div className="p-8 hover:scale-102 transition duration-300 ease-in-out  hover:scale-1.1 bg-white shadow-xl rounded-2xl">
             <div className="flex  items-center gap-3">
               <div className="inline-block">
                 <div className="bg-bg-primary px-3 rounded-xl py-3">
@@ -108,7 +108,7 @@ const Build = () => {
             </div>
           </div>
           {/* 4..boxx */}
-          <div className="p-8 hover:scale-102 transition duration-300 ease-in-out  hover:scale-1.1 bg-white shadow-2xl rounded-2xl">
+          <div className="p-8 hover:scale-102 transition duration-300 ease-in-out  hover:scale-1.1 bg-white shadow-xl rounded-2xl">
             <div className="flex  items-center gap-3">
               <div className="inline-block">
                 <div className="bg-bg-primary px-3 rounded-xl py-3">
@@ -144,7 +144,7 @@ const Build = () => {
 
         {/* final box */}
 
-        <div className=" rounded-2xl text-center bg-[#f2f1f8]">
+        <div className=" rounded-2xl text-center bg-[#f6f8f1]">
           <div className="flex justify-center pt-10  items-center">
             <div className="flex justify-center items-center gap-3 bg-bg-primary rounded-full p-4 mb-5">
               <svg

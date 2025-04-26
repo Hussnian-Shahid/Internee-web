@@ -22,17 +22,17 @@ const Step = () => {
           {/* section 2 */}
           <div className="md:w-full md:h-full flex flex-col gap-10  justify-center items-center relative">
             <div className="md:w-xl  relative">
-              <div className="absolute w-0.5 left-16 top-0 h-full  border-l-2 border-gray-500 border-dashed "></div>
+              <div className="absolute w-0.5 md:left-16 left-8 top-0 h-full  border-l-2 border-gray-500 border-dashed "></div>
 
-              <div className="flex flex-col gap-5 md:ml-35 ml-28 ">
+              <div className="flex shadow-md flex-col gap-5 md:ml-35 ml-20 ">
                 {/* step one */}
                 <div className="flex gap-10 items-center">
                   {/* button */}
-                  <div className="font-semibold rounded-full absolute left-8 text-white bg-primary px-4 py-3 ">
+                  <div className="font-semibold rounded-full absolute -left-1 md:left-8   text-white bg-primary px-4 py-3 ">
                     Step 1
                   </div>
                   {/* othersection */}
-                  <div className="md:p-10 p-5  rounded-2xl shadow-2xl">
+                  <div className="md:p-10 p-5  rounded-2xl shadow-md">
                     <div className="font-semibold text-xl">
                       Sign Up & Choose a Domain
                     </div>
@@ -45,11 +45,11 @@ const Step = () => {
                 {/* step two */}
                 <div className="flex gap-10 items-center">
                   {/* button */}
-                  <div className="font-semibold rounded-full absolute left-8 text-white bg-black px-4 py-3 ">
+                  <div className="font-semibold rounded-full absolute -left-1 md:left-8  text-white bg-black px-4 py-3 ">
                     Step 1
                   </div>
                   {/* othersection */}
-                  <div className="md:p-10 p-5 rounded-2xl shadow-2xl">
+                  <div className="md:p-10 p-5 rounded-2xl shadow-md">
                     <div className="font-semibold text-xl">
                       Fill out the Desired Form
                     </div>
@@ -62,11 +62,11 @@ const Step = () => {
                 {/* step THree */}
                 <div className="flex gap-10 items-center">
                   {/* button */}
-                  <div className="font-semibold rounded-full absolute left-8 text-white bg-black px-4 py-3 ">
+                  <div className="font-semibold rounded-full absolute -left-1 md:left-8  text-white bg-black px-4 py-3 ">
                     Step 1
                   </div>
                   {/* othersection */}
-                  <div className="md:p-10 p-5 rounded-2xl shadow-2xl">
+                  <div className="md:p-10 p-5 rounded-2xl shadow-md">
                     <div className="font-semibold text-xl">
                       Earn Your Certifcate
                     </div>

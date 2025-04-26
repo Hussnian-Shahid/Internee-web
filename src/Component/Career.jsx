@@ -5,7 +5,7 @@ const Career = () => {
     <div className="md:w-full  font-urbanist relative">
       <div className="absolute inset-0 bg-[url('/service.jpeg')] bg-no-repeat bg-cover bg-center filter blur-md"></div>
 
-      <div className="absolute inset-0 bg-white/30"></div>
+      <div className="absolute inset-0 bg-white/55"></div>
       <div></div>
 
       <div className="relative pb-20">
@@ -34,14 +34,14 @@ const Career = () => {
           <div className="text-center font-bold text-3xl md:text-5xl">
             <div>Launch your Career with internee.pk</div>
           </div>
-          <div className="text-center md:px-40 py-5 md:py-10 text-[20px] md:text-xl">
+          <div className="text-center md:px-53 py-5 md:py-10 text-[20px] md:text-xl">
             Pakistan's innovative platform for career growth and professional
             development. Join our<strong> virtual internships</strong> to gain
             practical experience and kickstart your professional journey.
           </div>
 
           {/* four box */}
-          <div className="grid md:grid-cols-4 grid-cols-2 md:gap-10 gap-5 pt-10  ">
+          <div className="grid md:grid-cols-4 grid-cols-2 md:gap-10 gap-5 pt-10 text-center ">
             {/* box1 */}
             <div className="bg-white rounded-2xl px-10 py-8 flex flex-col justify-center items-center ">
               <div className="font-urbanist text-primary font-semibold text-3xl">
@@ -672,7 +672,7 @@ const Career = () => {
           </div>
 
           {/* last box */}
-          <div className="mt-20 pb-8 rounded-2xl md:text-center bg-white p-5">
+          <div className="mt-20  rounded-2xl md:text-center bg-white pb-10 p-5">
             <div className="md:text-3xl text-xl font-bold py-8">
               Begin Your Professional Journey with Internee.pk
             </div>
@@ -710,7 +710,7 @@ const Career = () => {
               {/* button 2 */}
 
               <div className="flex justify-center items-center shadow-md rounded-2xl ">
-                <div className="flex justify-center items-center px-10 py-3  cursor-pointer bg-white text-primary  md:text-xl font-bold rounded-2xl">
+                <div className="flex justify-center items-center px-10 py-3  cursor-pointer hover:bg-[#f3f3f5] bg-white text-primary  md:text-xl font-bold rounded-2xl">
                   View Programs
                   <span>
                     <svg

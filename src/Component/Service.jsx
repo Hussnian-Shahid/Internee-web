@@ -3,16 +3,14 @@ import React from "react";
 const Service = () => {
   return (
     <div className="md:w-full overflow-x-hidden font-urbanist relative">
-
       <div className="absolute inset-0 bg-[url('/service.jpeg')] bg-no-repeat bg-cover bg-center filter blur-md"></div>
 
-      <div className="absolute inset-0 bg-white/30"></div>
+      <div className="absolute inset-0 bg-white/55"></div>
 
       <div className="relative pb-20">
         <div className="md:w-6xl mx-auto px-4">
-
           {/* first section */}
-          <div className="flex justify-center pt-30 items-center">
+          <div className="flex justify-center md:pt-30 pt-20 items-center">
             <div className="flex justify-center items-center gap-3 bg-bg-primary rounded-full p-4 mb-5">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -240,8 +238,8 @@ const Service = () => {
             </div>
 
             {/* box 3 */}
-            <div className="p-10 bg-white rounded-2xl">
-              <div className="flex justify-center items-center gap-3">
+            <div className="p-10 bg-white flex  gap-5 rounded-2xl">
+              <div className="flex  flex-col  gap-3">
                 <div className="inline-block">
                   <div className="bg-bg-primary px-3 rounded-xl py-3">
                     <svg
@@ -262,20 +260,21 @@ const Service = () => {
                     </svg>
                   </div>
                 </div>
-                <div className="font-bold py-3 md:text-2xl">
+              </div>
+              <div className="flex flex-col pt-2 gap-3">
+                <div className="font-semibold  md:text-xl">
                   SDLC Implementation via internee.pk
                 </div>
-              </div>
-              <div className="pl-15">
-                Experience the complete Software Development Life Cycle through
-                structured tasks and milestones, part of our
-                <strong> virtual internship</strong> offerings.
+                <div className="">
+                  Experience the complete Software Development Life Cycle
+                  through structured tasks and milestones, part of our
+                  <strong> virtual internship</strong> offerings.
+                </div>
               </div>
             </div>
-
             {/* box 4 */}
-            <div className="p-10 bg-white rounded-2xl">
-              <div className="flex justify-center items-center gap-3">
+            <div className="p-10 bg-white flex  gap-5 rounded-2xl">
+              <div className="flex  flex-col  gap-3">
                 <div className="inline-block">
                   <div className="bg-bg-primary px-3 rounded-xl py-3">
                     <svg
@@ -295,24 +294,28 @@ const Service = () => {
                     </svg>
                   </div>
                 </div>
-                <div className="font-bold py-3 md:text-2xl">
+              </div>
+              <div className="flex flex-col pt-2 gap-3">
+                <div className="font-semibold  md:text-xl">
                   Guided Learning path at internee.pk
                 </div>
-              </div>
-              <div className="pl-15">
-                Follow a structured learning path designed for both beginners
-                and advanced learners as part of our
-                <strong> virtual internship</strong> curriculum.
+                <div className="">
+                  Follow a structured learning path designed for both beginners
+                  and advanced learners as part of our
+                  <strong> virtual internship</strong> curriculum.
+                </div>
               </div>
             </div>
+
+            
           </div>
 
           {/* last box */}
           <div className="mt-10 pb-8 rounded-2xl text-center bg-white">
-            <div className="text-2xl font-bold py-8">
+            <div className="text-3xl font-bold py-8">
               Ready to Build Your Professional Portfolio with internee.pk?
             </div>
-            <div className="md:px-60 text-[20px] pb-8">
+            <div className="md:px-60 text-[20px] pb-8 text-gray-700 ">
               Join our
               <strong> virtual internships</strong>
               and get access to industry-standard tasks that will help you build

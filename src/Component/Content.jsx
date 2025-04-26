@@ -181,7 +181,7 @@ const Content = () => {
         <div className="grid md:px-[250px] py-20 md:grid-cols-2 grid-cols-1   gap-10   ">
           {contents.map((content, index) => {
             return (
-              <div key={content.id} className=" p-10 rounded-2xl shadow-2xl">
+              <div key={content.id} className=" p-10 rounded-2xl shadow-xl">
                 <div className="flex">
                   <div className="bg-bg-primary rounded-xl px-4 py-3 ">
                     <div>{content.image1}</div>

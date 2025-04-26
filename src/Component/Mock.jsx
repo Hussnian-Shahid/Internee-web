@@ -5,7 +5,7 @@ const Mock = () => {
     <div className="md:w-full overflow-x-hidden font-urbanist relative">
       <div className="absolute inset-0 bg-[url('/service2.jpeg')] bg-no-repeat bg-cover bg-center filter blur-sm"></div>
 
-      <div className="absolute inset-0 "></div>
+      <div className="absolute inset-0  bg-white/55 "></div>
 
       <div className="relative md:px-20 px-4">
         <div className="md:w-6xl mx-auto py-10 ">
@@ -84,8 +84,8 @@ const Mock = () => {
             {/* section 2 */}
             <div className="w-full grid grid-cols-1 gap-5">
               {/* box1 */}
-              <div className="p-5 bg-white rounded-2xl">
-                <div className="flex  items-center gap-3">
+              <div className="p-10 bg-white flex  gap-5 rounded-2xl">
+                <div className="flex  flex-col  gap-3">
                   <div className="inline-block">
                     <div className="bg-bg-primary px-3 rounded-xl py-3">
                       <svg
@@ -104,20 +104,23 @@ const Mock = () => {
                       </svg>
                     </div>
                   </div>
-                  <div className="font-bold py-3 text-[18px]">
+                </div>
+                <div className="flex flex-col pt-2 gap-3">
+                  <div className="font-semibold  md:text-xl">
                     Realistic AI Interview Simulations{" "}
                   </div>
-                </div>
-                <div className="pl-15 text-[16px] text-gray-700">
-                  Simulate real interview environments powered by AI. Perfect
-                  for students seeking
-                  <strong> online internship interview practice</strong> or job
-                  readiness.
+                  <div className="">
+                    Simulate real interview environments powered by AI. Perfect
+                    for students seeking
+                    <strong> online internship interview practice</strong> or
+                    job readiness.
+                  </div>
                 </div>
               </div>
+
               {/* box2 */}
-              <div className="p-5 bg-white rounded-2xl">
-                <div className="flex  items-center gap-3">
+              <div className="p-10 bg-white flex  gap-5 rounded-2xl">
+                <div className="flex  flex-col  gap-3">
                   <div className="inline-block">
                     <div className="bg-bg-primary px-3 rounded-xl py-3">
                       <svg
@@ -144,19 +147,23 @@ const Mock = () => {
                       </svg>
                     </div>
                   </div>
-                  <div className="font-bold py-3 text-[18px]">
+                </div>
+                <div className="flex flex-col pt-2 gap-3">
+                  <div className="font-semibold  md:text-xl">
                     Smart Feedback with AI{" "}
                   </div>
-                </div>
-                <div className="pl-15 text-gray-700 text-[16px]">
-                  Instantly analyze your answers, tone, and relevance. Improve
-                  every time with feedback tailored for
-                  <strong>virtual internship candidates</strong>.
+                  <div className="">
+                    Instantly analyze your answers, tone, and relevance. Improve
+                    every time with feedback tailored for
+                    <strong>virtual internship candidates</strong>.
+                  </div>
                 </div>
               </div>
+
               {/* box3 */}
-              <div className="p-5 bg-white rounded-2xl">
-                <div className="flex  items-center gap-3">
+            
+              <div className="p-10 bg-white flex  gap-5 rounded-2xl">
+                <div className="flex  flex-col  gap-3">
                   <div className="inline-block">
                     <div className="bg-bg-primary px-3 rounded-xl py-3">
                       <svg
@@ -177,16 +184,19 @@ const Mock = () => {
                       </svg>
                     </div>
                   </div>
-                  <div className="font-bold py-3 text-[18px]">
-                    Role-Based Mock Interviews{" "}
-                  </div>
                 </div>
-                <div className="pl-15 text-gray-700 text-[16px]">
-                  Pracitice Interviews for{" "}
-                  <strong>software engineering </strong> ,{" "}
-                  <strong>Product Management</strong>, <strong>business</strong>{" "}
-                  , and <strong>digital marketing</strong> roles in our{" "}
-                  <strong>internee.pk platform</strong>
+                <div className="flex flex-col pt-2 gap-3">
+                  <div className="font-semibold  md:text-xl">
+                    Pracitice Interviews for{" "}
+                  </div>
+                  <div className="">
+                    Pracitice Interviews for{" "}
+                    <strong>software engineering </strong> ,{" "}
+                    <strong>Product Management</strong>,{" "}
+                    <strong>business</strong> , and{" "}
+                    <strong>digital marketing</strong> roles in our{" "}
+                    <strong>internee.pk platform</strong>
+                  </div>
                 </div>
               </div>
             </div>
@@ -195,7 +205,7 @@ const Mock = () => {
           {/* part 2 */}
           <div className="grid  md:grid-cols-3 grid-cols-1   gap-10   ">
             {/* box 1 */}
-            <div className=" p-10 rounded-2xl bg-white shadow-2xl">
+            <div className=" p-7 rounded-2xl bg-white shadow-lg">
               <div className="flex">
                 <div>
                   <svg
@@ -208,14 +218,14 @@ const Mock = () => {
                     stroke-width="2"
                     stroke-linecap="round"
                     stroke-linejoin="round"
-                    class="lucide lucide-award text-primary w-8 h-8 mb-4"
+                    class="lucide lucide-award text-primary w-8 h-8 "
                   >
                     <path d="m15.477 12.89 1.515 8.526a.5.5 0 0 1-.81.47l-3.58-2.687a1 1 0 0 0-1.197 0l-3.586 2.686a.5.5 0 0 1-.81-.469l1.514-8.526"></path>
                     <circle cx="12" cy="8" r="6"></circle>
                   </svg>
                 </div>
               </div>
-              <div className="md:text-2xl font-semibold py-5">
+              <div className="md:text-xl font-semibold py-5">
                 Build Real Interview Confidence
               </div>
               <div>
@@ -224,7 +234,7 @@ const Mock = () => {
               </div>
             </div>
             {/* box 2 */}
-            <div className=" p-10 rounded-2xl bg-white shadow-2xl">
+            <div className=" p-10 rounded-2xl bg-white shadow-lg">
               <div className="flex">
                 <div>
                   <svg
@@ -237,7 +247,7 @@ const Mock = () => {
                     stroke-width="2"
                     stroke-linecap="round"
                     stroke-linejoin="round"
-                    class="lucide lucide-chart-no-axes-column-increasing text-primary w-8 h-8 mb-4"
+                    class="lucide lucide-chart-no-axes-column-increasing text-primary w-8 h-8 "
                   >
                     <line x1="12" x2="12" y1="20" y2="10"></line>
                     <line x1="18" x2="18" y1="20" y2="4"></line>
@@ -245,7 +255,7 @@ const Mock = () => {
                   </svg>
                 </div>
               </div>
-              <div className="md:text-2xl font-semibold py-5">
+              <div className="md:text-xl font-semibold py-5">
                 Become Job-Ready Fast{" "}
               </div>
               <div>
@@ -255,7 +265,7 @@ const Mock = () => {
               </div>
             </div>
             {/* box 3 */}
-            <div className=" p-10 rounded-2xl bg-white shadow-2xl">
+            <div className=" p-10 rounded-2xl bg-white shadow-lg">
               <div className="flex">
                 <div>
                   <svg
@@ -268,7 +278,7 @@ const Mock = () => {
                     stroke-width="2"
                     stroke-linecap="round"
                     stroke-linejoin="round"
-                    class="lucide lucide-file-text text-primary w-8 h-8 mb-4"
+                    class="lucide lucide-file-text text-primary w-8 h-8 "
                   >
                     <path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"></path>
                     <path d="M14 2v4a2 2 0 0 0 2 2h4"></path>
@@ -278,7 +288,7 @@ const Mock = () => {
                   </svg>
                 </div>
               </div>
-              <div className="md:text-2xl font-semibold py-5">
+              <div className="md:text-xl font-semibold py-5">
                 Track Progress with Reports{" "}
               </div>
               <div>

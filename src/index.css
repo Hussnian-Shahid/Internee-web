@@ -2,10 +2,10 @@
 
 @import "tailwindcss";
 @theme {
-  --color-primary : #1B56FD;
-  --color-secondry : #0118D8;
+  --color-primary : #E9A319;
+  --color-secondry : #A86523;
   --font-urbanist :  "Urbanist", sans-serif ;
-  --color-bg-primary: #cdc9db
+  --color-bg-primary: #f3f2e3
 }
 .container{
   background-image: url(./service.jpeg);
