@@ -84,13 +84,13 @@ const Feedback = () => {
                   </div>
                 </div>
                 {/* slide 2 */}
-                <div className="md:p-10 bg-gray-200 rounded-2xl relative shadow-2xl text-center ,md:mt-14">
+                <div className="md:p-10 p-5 bg-gray-200 rounded-2xl relative shadow-2xl text-center ,md:mt-14">
                   <img
                     src="https://t4.ftcdn.net/jpg/04/44/74/99/360_F_444749923_B0XJTJJRUVlRQHcDeSV1eOG6JjkKdj7Q.jpg"
-                    className="absolute left-1/2 transform -translate-x-1/2 -top-12 h-24 w-24 rounded-full border-4 border-white shadow"
+                    className="absolute left-1/2 transform -translate-x-1/2 top-3 h-24 w-24 rounded-full border-4 border-white shadow"
                     alt="Hassan Khaild"
                   />
-                  <div className="font-bold text-2xl font-urbanist pt-5">
+                  <div className="font-bold text-2xl font-urbanist pt-20">
                     Hassan Khaild
                   </div>
                   <div className="font-urbanist text-lg">Karachi, Pakistan</div>
@@ -108,19 +108,19 @@ const Feedback = () => {
                   </div>
                 </div>
                 {/* slide 3 */}
-                <div className="md:p-10 bg-gray-200 rounded-2xl relative shadow-2xl text-center ,md:mt-14">
+                <div className="md:p-10 p-5 bg-gray-200 rounded-2xl relative shadow-2xl text-center ,md:mt-14">
                   <img
                     src="https://media.istockphoto.com/id/464565934/photo/smiling-south-asian-bearded-male.jpg?s=612x612&w=0&k=20&c=uKyudyjQOAiqccBZ73UTgC944AA26iY1Z4VADwKmNH0="
-                    className="absolute left-1/2 transform -translate-x-1/2 -top-12 h-24 w-24 rounded-full border-4 border-white shadow"
+                    className="absolute left-1/2 transform -translate-x-1/2 top-3 h-24 w-24 rounded-full border-4 border-white shadow"
                     alt="Ali Asgar"
                   />
-                  <div className="font-bold text-2xl font-urbanist pt-5">
+                  <div className="font-bold text-2xl font-urbanist pt-20">
                     Ali Asgar
                   </div>
                   <div className="font-urbanist text-lg">Multan, Pakistan</div>
                   <div className="py-7 text-lg text-gray-700">
                     "Internee.pk's user-friendly interface makes navigating
-                    between learning , enhancing the overall educational
+                    between learning , enhancing the overall confidence and the other educational 
                     experience significantly."
                   </div>
                   <div className="flex justify-center items-center">
@@ -132,19 +132,19 @@ const Feedback = () => {
                   </div>
                 </div>
                 {/* slide 4 */}
-                <div className="md:p-10 bg-gray-200 rounded-2xl relative shadow-2xl text-center ,md:mt-14">
+                <div className="md:p-10 p-5 bg-gray-200 rounded-2xl relative shadow-2xl text-center ,md:mt-14">
                   <img
                     src="https://t4.ftcdn.net/jpg/06/81/62/69/360_F_681626947_MdDN3wF7IGrv0pcCbm8ixP7U5QXYhdt9.jpg"
-                    className="absolute left-1/2 transform -translate-x-1/2 -top-12 h-24 w-24 rounded-full border-4 border-white shadow"
+                    className="absolute left-1/2 transform -translate-x-1/2 top-3 h-24 w-24 rounded-full border-4 border-white shadow"
                     alt="Ahmad Javed"
                   />
-                  <div className="font-bold text-2xl font-urbanist pt-5">
+                  <div className="font-bold text-2xl font-urbanist pt-20">
                     Ahmad Javed
                   </div>
                   <div className="font-urbanist text-lg">Multan, Pakistan</div>
                   <div className="py-7 text-lg text-gray-700">
                     "The comprehensive assessment system on internee.pk provides
-                    that effectively identifies strengths and areas for
+                    that effectively and other identifies strengths and areas for practical or physical
                     improvement."
                   </div>
                   <div className="flex justify-center items-center">
@@ -156,19 +156,19 @@ const Feedback = () => {
                   </div>
                 </div>
                 {/* slide 5 */}
-                <div className="md:p-10 bg-gray-200 rounded-2xl relative shadow-2xl text-center ,md:mt-14">
+                <div className="md:p-10 p-5 bg-gray-200 rounded-2xl relative shadow-2xl text-center ,md:mt-14">
                   <img
                     src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkNkMBtiQiOBLt1HvVrVLL_J4RbOq-JLjsI3BNiTHX0KGYtSYq_3sYfg1xdOjogFpOlxA&usqp=CAU"
-                    className="absolute left-1/2 transform -translate-x-1/2 -top-12 h-24 w-24 rounded-full border-4 border-white shadow"
+                    className="absolute left-1/2 transform -translate-x-1/2 top-3 h-24 w-24 rounded-full border-4 border-white shadow"
                     alt="Ali Asgar"
                   />
-                  <div className="font-bold text-2xl font-urbanist pt-5">
+                  <div className="font-bold text-2xl font-urbanist pt-20">
                     Muhammad BIlal
                   </div>
                   <div className="font-urbanist text-lg">Multan, Pakistan</div>
                   <div className="py-7 text-lg text-gray-700">
                     "Internee.pk consistently updates course content to reflect
-                    current ensuring students gain truly valuable, applicable
+                    current ensuring students gain truly valuable and education and both of the  applicable
                     knowledge."
                   </div>
                   <div className="flex justify-center items-center">

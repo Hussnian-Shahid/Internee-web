@@ -13,6 +13,7 @@ import Build from './Component/Build'
 import Coach from './Component/Coach'
 import Feedback from './Component/Feedback'
 import Unlock from './Component/Unlock'
+import Footer from './Component/Footer'
 
 const Home = () => {
   return (
@@ -31,6 +32,7 @@ const Home = () => {
       <Coach />
       <Feedback />
       <Unlock />
+      <Footer />
     </>
   );
 }
