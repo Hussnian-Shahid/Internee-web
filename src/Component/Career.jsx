@@ -9,7 +9,7 @@ const Career = () => {
       <div></div>
 
       <div className="relative pb-20">
-        <div className="md:w-7xl mx-auto px-4">
+        <div className="md:max-w-6xl mx-auto px-4">
           <div className="flex justify-center pt-30 items-center">
             <div className="flex justify-center items-center gap-3 bg-bg-primary rounded-full p-4 mb-5">
               <svg

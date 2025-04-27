@@ -3,7 +3,7 @@ import React from 'react'
 const Unlock = () => {
   return (
     <div className=" px-4 md:py-20 py-10 md:w-full ">
-      <div className="md:w-7xl md:mx-auto text-center bg-[#0b0a33] py-10 md:py-30 rounded-2xl ">
+      <div className="md:max-w-6xl md:mx-auto text-center bg-[#0b0a33] py-10 md:py-30 rounded-2xl ">
         <div className="flex flex-col  md:flex-row  justify-center items-center pb-10  ">
           <span className="flex p-1 bg-white rounded-2xl gap-2   md:gap-5  justify-center items-center ">
             <div className="bg-black text-white md:font-bold rounded-2xl md:px-3  px-2  py-1 ">

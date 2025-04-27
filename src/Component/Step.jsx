@@ -3,7 +3,7 @@ import React from 'react'
 const Step = () => {
   return (
     <div className="bg-[#F3F4F6] px-4 py-20 md:w-full ">
-      <div className="md:w-7xl md:mx-auto bg-[#F3F4F6]">
+      <div className="md:max-w-6xl md:mx-auto bg-[#F3F4F6]">
         <div className="flex md:flex-row  flex-col justify-center items-center">
           {/* section 1 */}
           <div className="md:w-full flex justify-center  flex-col h-full ">

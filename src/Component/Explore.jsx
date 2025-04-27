@@ -60,7 +60,7 @@ const Explore = () => {
       ]
     return (
         <>
-      <div className="bg-[#f3f4f6] md:w-[1450px] md:mx-auto  rounded-xl px-4  mx-4   font-urbanist md:px-6 pb-20 ">
+      <div className="bg-[#f3f4f6] md:max-w-[1450px] md:mx-auto  rounded-xl px-4  mx-4   font-urbanist md:px-6 pb-20 ">
         <div className="flex justify-center items-center md:pt-15 pt-10  ">
           <div className="font-urbanist text-center  font-black text-4xl">
             Explore Internship Categories

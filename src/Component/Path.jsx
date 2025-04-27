@@ -9,7 +9,7 @@ const Path = () => {
         <div className="absolute inset-0 bg-white/75"></div>
 
         <div className="relative ">
-          <div className="md:w-6xl mx-auto px-4">
+          <div className="md:max-w-6xl mx-auto px-4">
             <div className="flex md:w-3xl md:justify-start flex-col ">
               <div className="flex md:justify-start  justify-center ">
                 <div className="flex justify-center items-center bg-bg-primary  rounded-full p-4">

@@ -3,7 +3,7 @@ import React from 'react'
 const Build = () => {
   return (
     <div className="md:w-full py-20 overflow-x-hidden font-urbanist relative">
-      <div className="md:w-7xl mx-auto px-4">
+      <div className="md:max-w-6xl mx-auto px-4">
         {/* four boxsssss */}
         <div className="grid md:grid-cols-2 grid-cols-1 gap-10 mb-20 ">
           {/* 1..boxx */}

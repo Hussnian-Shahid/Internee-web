@@ -8,7 +8,7 @@ const Service = () => {
       <div className="absolute inset-0 bg-white/55"></div>
 
       <div className="relative pb-20">
-        <div className="md:w-6xl mx-auto px-4">
+        <div className="md:max-w-6xl mx-auto px-4">
           {/* first section */}
           <div className="flex justify-center md:pt-30 pt-20 items-center">
             <div className="flex justify-center items-center gap-3 bg-bg-primary rounded-full p-4 mb-5">

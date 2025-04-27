@@ -5,7 +5,7 @@ const Header = () => {
     <>
       <div className="flex md:px-16.5 pt-10 px-4  md:h-screen ">
         <div className="flex justify-center  flex-col md:w-full ">
-          <div className="font-bold font-urbanist text-center text-4xl md:text-start md:text-7xl">
+          <div className="font-bold font-urbanist text-center text-4xl md:text-start md:text-6xl">
             <div>Looking for</div>
             <div>dream internship ?</div>
           </div>

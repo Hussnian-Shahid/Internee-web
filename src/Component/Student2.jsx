@@ -103,7 +103,7 @@ const Student2 = () => {
     ];
   return (
     <div className="w-full px-4 md:px-10 py-20 mx-auto ">
-      <div className="grid grid-cols-1 md:pt-[750px]  gap-10   md:grid-cols-4 ">
+      <div className="grid grid-cols-1 md:max-pt-[750px]  gap-10   md:grid-cols-4 ">
         {card.map((car, index) => {
           return (
             <div key={car.id} className="shadow-lg flex items-center gap-5  duration-300 cursor-pointer transition-all  hover:scale-110  ">

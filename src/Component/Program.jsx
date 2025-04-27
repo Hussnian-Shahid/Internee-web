@@ -27,7 +27,7 @@ const Program = () => {
   return (
     <>
       <Navbar />
-      <div className="md:w-7xl text-center px-4 md:mx-auto  py-20">
+      <div className="md:max-w-6xl text-center px-4 md:mx-auto  py-20">
         {/* section no 1 */}
         <div>
           <div className="font-bold py-6 md:text-6xl text-4xl">Graduate Program</div>

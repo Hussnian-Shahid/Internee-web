@@ -8,7 +8,7 @@ const Student = () => {
   return (
     <>
       <Navbar />
-      <div className="w-full relative h-125">
+      <div className="w-full relative max-h-125">
         <div className="absolute inset-0 bg-[url('/service4.jpeg')] bg-no-repeat bg-cover bg-center filter  "></div>
         <div className="absolute inset-0 bg-black/35"></div>
 

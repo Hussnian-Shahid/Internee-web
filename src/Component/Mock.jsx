@@ -8,7 +8,7 @@ const Mock = () => {
       <div className="absolute inset-0  bg-white/55 "></div>
 
       <div className="relative md:px-20 px-4">
-        <div className="md:w-6xl mx-auto py-10 ">
+        <div className="md:max-w-6xl mx-auto py-10 ">
           {/* part 1 */}
           <div className="md:flex justify-center items-center pb-10 gap-10">
             {/* section1 */}
