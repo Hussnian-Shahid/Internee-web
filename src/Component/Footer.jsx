@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -29,7 +30,9 @@ const Footer = () => {
       <div className="flex flex-col md:flex-row md:justify-between py-10 ">
         {/* section no 1 */}
         <div>
-          <img className="h-10" src="/updated_logo.png" alt="" />
+          <Link to="/">
+            <img className="h-10" src="/updated_logo.png" alt="" />
+          </Link>
           <div className="py-5 text-gray-700 font-urbanist">
             The ultimate platform designed to turbocharge the IT sector in
             Pakistan.
