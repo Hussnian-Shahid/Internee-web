@@ -13,13 +13,13 @@ const Navbar = () => {
         <div>
           <Link to="/">
             <img
-              className="md:h-13 h-10 w-auto"
+              className="md:h-12 h-10 w-auto"
               src="/updated_logo.png"
               alt="logo"
             />
           </Link>
         </div>
-        <div className="md:flex hidden justify-center items-center gap-7 text-base font-sans">
+        <div className="md:flex hidden justify-center items-center gap-7 text-[14px] font-sans  ">
           <Link to="/">
             <div className="hover:text-primary cursor-pointer">Home</div>
           </Link>
@@ -41,7 +41,7 @@ const Navbar = () => {
           <button className="bg-primary cursor-pointer text-white px-5 py-2 font-sans rounded-xl hover:bg-white hover:text-black border-[1px] border-primary transition-all duration-300">
             Job Portal
           </button>
-          <button className="bg-white text-black px-5 py-2 rounded-xl hover:bg-primary hover:text-white  transition-all cursor-pointer duration-300">
+          <button className="bg-white text-black px-5 py-2 rounded-xl hover:bg-primary hover:text-white  transition-all cursor-pointer border-[1px] border-primary shadow-lg duration-300">
             Dashboard
           </button>
           <div className="h-12 w-12 bg-[#e5e5e5] shadow-2xl flex justify-center items-center rounded-full">
