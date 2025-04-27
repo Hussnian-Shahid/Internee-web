@@ -27,7 +27,7 @@ const Header = () => {
           </div>
         </div>
         <div className="w-full md:flex justify-center items-center hidden ">
-          <img  src="/banner.webp" alt="banner" />
+          <img src="/updated_banner.webp" alt="banner" />
         </div>
       </div>
     </>

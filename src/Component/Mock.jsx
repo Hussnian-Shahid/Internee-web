@@ -234,7 +234,7 @@ const Mock = () => {
               </div>
             </div>
             {/* box 2 */}
-            <div className=" p-10 rounded-2xl bg-white shadow-lg">
+            <div className=" p-7 rounded-2xl bg-white shadow-lg">
               <div className="flex">
                 <div>
                   <svg
@@ -265,7 +265,7 @@ const Mock = () => {
               </div>
             </div>
             {/* box 3 */}
-            <div className=" p-10 rounded-2xl bg-white shadow-lg">
+            <div className=" p-7 rounded-2xl bg-white shadow-lg">
               <div className="flex">
                 <div>
                   <svg

@@ -29,7 +29,7 @@ const Footer = () => {
       <div className="flex flex-col md:flex-row md:justify-between py-10 ">
         {/* section no 1 */}
         <div>
-          <img className="h-10" src="/logo (1).png" alt="" />
+          <img className="h-10" src="/updated_logo.png" alt="" />
           <div className="py-5 text-gray-700 font-urbanist">
             The ultimate platform designed to turbocharge the IT sector in
             Pakistan.
@@ -150,9 +150,9 @@ const Footer = () => {
         <div>
           <p>Copyright &copy; 2025 internee.pk</p>
         </div>
-        <div className='flex md:justify-between gap-4 ' >
-            <div>Terms of Use</div>
-            <div>Privacy Policy</div>
+        <div className="flex md:justify-between gap-4 ">
+          <div>Terms of Use</div>
+          <div>Privacy Policy</div>
         </div>
       </div>
     </div>

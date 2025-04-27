@@ -24,7 +24,7 @@ const Step = () => {
             <div className="md:w-xl  relative">
               <div className="absolute w-0.5 md:left-16 left-8 top-0 h-full  border-l-2 border-gray-500 border-dashed "></div>
 
-              <div className="flex shadow-md flex-col gap-5 md:ml-35 ml-20 ">
+              <div className="flex shadow-md flex-col gap-5 md:gap-5 md:ml-35 ml-20 ">
                 {/* step one */}
                 <div className="flex gap-10 items-center">
                   {/* button */}

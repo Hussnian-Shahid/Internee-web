@@ -576,7 +576,7 @@ const Career = () => {
             </div>
 
             {/*box 2  */}
-            <div className="p-10 rounded-2xl bg-[#f6f3f3] ">
+            <div className="p-5 py-10 md:p-10 rounded-2xl bg-[#f6f3f3] ">
               <div className="font-semibold text-xl pb-5">Career Resources</div>
 
               <div className="grid grid-cols-2  gap-5 bg-[#f6f3f3] ">
