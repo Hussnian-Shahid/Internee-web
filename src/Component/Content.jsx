@@ -190,7 +190,7 @@ const Content = () => {
                 <div className='md:text-2xl font-semibold py-5' >{content.titel}</div>
                 <div>{content.desc}</div>
                 <div className="flex items-center text-center">
-                  <div className="text-primary text-xl">{content.more}</div>
+                  <div className="text-primary text-xl cursor-pointer ">{content.more}</div>
                   <div className="pt-1">{content.out}</div>
                 </div>
               </div>
