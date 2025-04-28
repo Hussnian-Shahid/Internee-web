@@ -27,7 +27,7 @@ const Header = () => {
           </div>
         </div>
         <div className="w-full md:flex justify-center items-center hidden ">
-          <img className="h-[80vh]" src="/updated_banner.webp" alt="banner" />
+          <img className=" object-contain h-[80vh]" src="/updated_banner.webp" alt="banner" />
         </div>
       </div>
     </>
