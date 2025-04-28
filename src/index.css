@@ -15,4 +15,10 @@
   height: fit-content;
 }
 
+ul.splide__pagination.splide__pagination--ltr {
+    bottom: -20px;
+}
+.splide__pagination__page.is-active {
+   @apply !bg-primary
+}
 
