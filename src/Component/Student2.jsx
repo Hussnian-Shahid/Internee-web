@@ -7,15 +7,13 @@ const Student2 = () => {
         image: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="40"
-            height="40"
             viewBox="0 0 24 24"
             fill="none"
             stroke="currentColor"
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-notebook text-primary w-full h-full"
+            class="lucide lucide-notebook text-primary w-10 h-10"
           >
             <path d="M2 6h4"></path>
             <path d="M2 10h4"></path>
@@ -33,15 +31,13 @@ const Student2 = () => {
         image: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="40"
-            height="40"
             viewBox="0 0 24 24"
             fill="none"
             stroke="currentColor"
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-users text-primary w-full h-full"
+            class="lucide lucide-users text-primary w-10 h-10"
           >
             <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
             <circle cx="9" cy="7" r="4"></circle>
@@ -57,15 +53,13 @@ const Student2 = () => {
         image: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="40"
-            height="40"
             viewBox="0 0 24 24"
             fill="none"
             stroke="currentColor"
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-trophy text-primary w-full h-full"
+            class="lucide lucide-trophy text-primary w-10 h-10"
           >
             <path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"></path>
             <path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"></path>
@@ -83,15 +77,13 @@ const Student2 = () => {
         image: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="40"
-            height="40"
             viewBox="0 0 24 24"
             fill="none"
             stroke="currentColor"
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide text-primary lucide-square-check-big w-full h-full"
+            class="lucide text-primary lucide-square-check-big w-10 h-10"
           >
             <path d="M21 10.5V19a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h12.5"></path>
             <path d="m9 11 3 3L22 4"></path>
@@ -103,16 +95,16 @@ const Student2 = () => {
     ];
   return (
     <div className="w-full px-4 md:px-10 py-20 mx-auto ">
-      <div className="grid grid-cols-1 md:max-pt-[750px]  gap-10   md:grid-cols-4 ">
+      <div className="grid grid-cols-1 md:pt-[750px]  gap-8  md:grid-cols-4 ">
         {card.map((car, index) => {
           return (
-            <div key={car.id} className="shadow-lg flex items-center gap-5  duration-300 cursor-pointer transition-all  hover:scale-110  ">
-              <div className="bg-[#F3F4F6] w-fll p-7 flex justify-center items-center hover:text-primary">
+            <div key={car.id} className="shadow-md hover:shadow-xl flex items-center gap-5  duration-300 cursor-pointer transition-all  hover:scale-106  ">
+              <div className="bg-[#F3F4F6] w-fll px-6 py-7 flex justify-center items-center hover:text-primary">
                 {car.image}
               </div>
               <div className="flex flex-col  items-start ">
-                <div className="font-bold">{car.title}</div>
-                <div className='font-base' >{car.desc}</div>
+                <div className="font-semibold">{car.title}</div>
+                <div className='text-[13px]' >{car.desc}</div>
               </div>
             </div>
           );

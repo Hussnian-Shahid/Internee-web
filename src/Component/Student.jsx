@@ -13,7 +13,7 @@ const Student = () => {
         <div className="absolute inset-0 bg-black/35"></div>
 
         <div className="absolute inset-0 bg-white/0"></div>
-        <div className="md:w-7xl md:mx-auto relative ">
+        <div className="md:w-6xl md:mx-auto relative ">
           {/* title */}
           <div className="pt-50 px-15  py-5 text-white  font-semibold text-5xl md:text-6xl  ">
             <div>Internee.pk</div>
