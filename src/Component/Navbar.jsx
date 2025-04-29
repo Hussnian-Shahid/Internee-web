@@ -24,7 +24,9 @@ const Navbar = () => {
             <div className="hover:text-primary   cursor-pointer">Home</div>
           </Link>
           <Link to="/internship">
-            <div className="hover:text-primary   cursor-pointer">Internship</div>
+            <div className="hover:text-primary   cursor-pointer">
+              Internship
+            </div>
           </Link>
           <Link to="/graduate program">
             <div className="hover:text-primary   cursor-pointer">
@@ -68,13 +70,20 @@ const Navbar = () => {
       {Menu && (
         <div className="w-full md:hidden flex flex-col justify-start fixed bg-white transition-all duration-300 ease-in-out gap-7 text-base px-8 py-10">
           <div className="hover:text-primary cursor-pointer">Home</div>
-          <div className="hover:text-primary cursor-pointer">Internship</div>
-          <div className="hover:text-primary cursor-pointer">
-            Graduate Program
-          </div>
-          <div className="hover:text-primary cursor-pointer">
-            Student Ambassador
-          </div>
+          <Link to="/internship">
+            <div className="hover:text-primary cursor-pointer">Internship</div>
+          </Link>
+          <Link to="/graduate program">
+            <div className="hover:text-primary cursor-pointer">
+              Graduate Program
+            </div>
+          </Link>
+          <Link to="/student ambassador">
+            <div className="hover:text-primary cursor-pointer">
+              Student Ambassador
+            </div>
+          </Link>
+
           <div className="hover:text-primary cursor-pointer">Dashboard</div>
         </div>
       )}
