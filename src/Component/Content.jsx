@@ -173,7 +173,7 @@ const Content = () => {
         Create in Your Native Language & Start Earning
       </div>
       <div className="flex justify-center items-center py-8">
-        <div className="bg-primary cursor-pointer hover:bg-bg-primary px-7 py-3 text-white font-semibold text-xl rounded-xl ">
+        <div className="bg-primary cursor-pointer hover:bg-secondry px-7 py-3 text-white font-semibold text-xl rounded-xl ">
           Start Teaching Today
         </div>
       </div>
