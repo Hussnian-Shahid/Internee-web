@@ -92,7 +92,7 @@ const Explore = () => {
                     </div>
                     <div className="flex justify-center bg-bg-primary  cursor-pointer items-center p-5   ">
                       <Link to="/apply">
-                      <div className="text-white bg-primary text-center rounded-xl  px-23 md:px-23 py-2  text-[18px] ">
+                      <div className="text-white bg-primary text-center rounded-xl  px-18 md:px-23 py-2  text-[18px] ">
                         {apply.enter}
                       </div>
                       </Link>
