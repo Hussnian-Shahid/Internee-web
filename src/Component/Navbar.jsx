@@ -68,7 +68,7 @@ const Navbar = () => {
 
       {/* Mobile Menu Dropdown */}
       {Menu && (
-        <div className="w-full md:hidden flex flex-col justify-start fixed bg-white transition-all duration-300 ease-in-out gap-7 text-base px-8 py-10">
+        <div className="w-full md:hidden flex flex-col justify-start fixed bg-white transition-all duration-300 ease-in-out gap-7 text-base px-8 py-10 z-9999 ">
           <div className="hover:text-primary cursor-pointer">Home</div>
           <Link to="/internship">
             <div className="hover:text-primary cursor-pointer">Internship</div>
