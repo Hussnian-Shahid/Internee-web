@@ -94,17 +94,20 @@ const Student2 = () => {
       },
     ];
   return (
-    <div className="w-full px-4 md:px-10 py-20 mx-auto ">
-      <div className="grid grid-cols-1 md:pt-[750px]  gap-8  md:grid-cols-4 ">
+    <div className="w-full px-4 md:px-10 pt-20 mx-auto ">
+      <div className="grid grid-cols-1 md:pt-[640px]  gap-8  md:grid-cols-4 ">
         {card.map((car, index) => {
           return (
-            <div key={car.id} className="shadow-md hover:shadow-xl flex items-center gap-5  duration-300 cursor-pointer transition-all  hover:scale-106  ">
-              <div className="bg-[#F3F4F6] w-fll px-6 py-7 flex justify-center items-center hover:text-primary">
+            <div
+              key={car.id}
+              className="shadow-md hover:shadow-xl flex items-center gap-5 group  duration-300 cursor-pointer transition-all  hover:scale-106  "
+            >
+              <div className="bg-[#F3F4F6] w-fll px-6 py-7 flex justify-center items-center ">
                 {car.image}
               </div>
               <div className="flex flex-col  items-start ">
-                <div className="font-semibold">{car.title}</div>
-                <div className='text-[13px]' >{car.desc}</div>
+                <div className="font-semibold group-hover:text-primary ">{car.title}</div>
+                <div className="text-[13px]">{car.desc}</div>
               </div>
             </div>
           );

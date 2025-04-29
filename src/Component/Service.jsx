@@ -49,7 +49,7 @@ const Service = () => {
           {/* four box */}
           <div className="grid md:grid-cols-2 gap-10">
             {/* box 1 */}
-            <div className="p-10 bg-white rounded-2xl">
+            <div className="md:p-10 p-8 bg-white rounded-2xl">
               <div className="inline-block">
                 <div className="bg-bg-primary px-3 rounded-xl py-3">
                   <svg
@@ -69,7 +69,7 @@ const Service = () => {
                   </svg>
                 </div>
               </div>
-              <div className="font-bold py-3 md:text-2xl">
+              <div className="font-bold py-3 text-2xl ">
                 Hands-on Industry Projects with internee.pk
               </div>
               <div className="pb-5">
@@ -143,7 +143,7 @@ const Service = () => {
               </div>
             </div>
             {/* box 2 */}
-            <div className="p-10 bg-white rounded-2xl">
+            <div className="md:p-10 p-8 bg-white rounded-2xl">
               <div className="inline-block">
                 <div className="bg-bg-primary px-3 rounded-xl py-3">
                   <svg
@@ -163,7 +163,7 @@ const Service = () => {
                   </svg>
                 </div>
               </div>
-              <div className="font-bold py-3 md:text-2xl">
+              <div className="font-bold py-3 text-2xl">
                 Skill Verification System by internee.pk
               </div>
               <div className="pb-5">
@@ -238,7 +238,7 @@ const Service = () => {
             </div>
 
             {/* box 3 */}
-            <div className="p-10 bg-white flex  gap-5 rounded-2xl">
+            <div className="md:p-10 p-8 bg-white flex  gap-5 rounded-2xl">
               <div className="flex  flex-col  gap-3">
                 <div className="inline-block">
                   <div className="bg-bg-primary px-3 rounded-xl py-3">
@@ -261,8 +261,8 @@ const Service = () => {
                   </div>
                 </div>
               </div>
-              <div className="flex flex-col pt-2 gap-3">
-                <div className="font-semibold  md:text-xl">
+              <div className="flex flex-col  gap-3">
+                <div className="font-semibold  text-xl">
                   SDLC Implementation via internee.pk
                 </div>
                 <div className="">
@@ -273,7 +273,7 @@ const Service = () => {
               </div>
             </div>
             {/* box 4 */}
-            <div className="p-10 bg-white flex  gap-5 rounded-2xl">
+            <div className="md:p-10 p-8 bg-white flex  gap-5 rounded-2xl">
               <div className="flex  flex-col  gap-3">
                 <div className="inline-block">
                   <div className="bg-bg-primary px-3 rounded-xl py-3">
@@ -295,8 +295,8 @@ const Service = () => {
                   </div>
                 </div>
               </div>
-              <div className="flex flex-col pt-2 gap-3">
-                <div className="font-semibold  md:text-xl">
+              <div className="flex flex-col  gap-3">
+                <div className="font-semibold  text-xl">
                   Guided Learning path at internee.pk
                 </div>
                 <div className="">
@@ -306,12 +306,10 @@ const Service = () => {
                 </div>
               </div>
             </div>
-
-            
           </div>
 
           {/* last box */}
-          <div className="mt-10 pb-8 rounded-2xl text-center bg-white">
+          <div className="mt-10 pt-3 pb-8 rounded-2xl text-center bg-white">
             <div className="text-3xl font-bold py-8">
               Ready to Build Your Professional Portfolio with internee.pk?
             </div>

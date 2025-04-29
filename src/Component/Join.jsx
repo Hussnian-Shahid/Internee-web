@@ -73,8 +73,8 @@ const Join = () => {
       },
     ];
   return (
-    <div className='w-full px-4 md:px-10  md:py-20 mx-auto  bg-white' >
-        <div className='font-bold text-xl py-5' >Why you should join</div>
+    <div className='w-full px-4 md:px-10  md:py-20 pt-10 mx-auto  bg-white' >
+        <div className='font-bold text-xl py-5  ' >Why you should join</div>
         <div className='grid grid-cols-1 md:grid-cols-3 gap-10 pb-10' >
             {boxs.map((box,index) => {
                 return <div key={box.id} className="bg-[#f9fafb] p-5">

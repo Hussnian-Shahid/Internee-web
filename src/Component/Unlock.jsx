@@ -3,13 +3,13 @@ import React from 'react'
 const Unlock = () => {
   return (
     <div className=" px-4 md:py-20 py-10 md:w-full ">
-      <div className="md:max-w-6xl md:mx-auto text-center bg-[#0b0a33] py-10 md:py-30 rounded-2xl ">
+      <div className="md:max-w-6xl md:mx-auto text-center bg-[#0b0a33] py-10 md:py-30  p-5 rounded-2xl ">
         <div className="flex flex-col  md:flex-row  justify-center items-center pb-10  ">
           <span className="flex p-1 bg-white rounded-2xl gap-2   md:gap-5  justify-center items-center ">
-            <div className="bg-black text-white md:font-bold rounded-2xl md:px-3  px-2  py-1 ">
+            <div className="bg-black text-white md:font-semibold rounded-2xl md:px-3 text-sm  px-2  py-[2px] ">
               Trending
             </div>
-            <div className="md:font-bold md:pr-2">
+            <div className="md:font-semibold md:text-sm text-lg md:pr-2">
               {" "}
               Explore intership opportunities{" "}
             </div>
@@ -47,24 +47,26 @@ const Unlock = () => {
           </div>
         </div>
       </div>
-      <div className="w-full md:mx-auto pt-10">
+
+
+      <div className="w-full md:mx-auto    pt-10">
         <div className=" flex justify-center items-center ">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-20">
             <div className="flex flex-col">
-              <div className="font-bold text-5xl font-urbanist">20+</div>
-              <div className=" font-urbanist text-gray-800">
+              <div className="font-bold text-5xl text-center font-urbanist">20+</div>
+              <div className=" font-urbanist text-gray-800 text-center ">
                 Expert-led internships
               </div>
             </div>
             <div className="flex flex-col">
-              <div className="font-bold text-5xl font-urbanist">1,500+</div>
-              <div className=" font-urbanist text-gray-800">
+              <div className="font-bold text-5xl text-center font-urbanist">1,500+</div>
+              <div className=" font-urbanist text-gray-800 text-center ">
                 Success Graduates
               </div>
             </div>
             <div className="flex flex-col">
-              <div className="font-bold text-5xl font-urbanist">50,000+</div>
-              <div className=" font-urbanist text-gray-800">
+              <div className="font-bold text-5xl text-center font-urbanist">50,000+</div>
+              <div className=" font-urbanist text-gray-800 text-center ">
                 LinkedIn Followers
               </div>
             </div>

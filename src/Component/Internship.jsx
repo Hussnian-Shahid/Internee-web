@@ -6,7 +6,7 @@ const Internship = () => {
   return (
     <div>
       <Navbar />
-      <div className="md:px-16 md:py-20 px-4 py-10 ">
+      <div className="md:px-17 md:py-14 px-4 py-10 ">
         {/* section no 1 */}
         <div className="md:flex justify-between items-center">
           {/* side 1 */}

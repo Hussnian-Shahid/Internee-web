@@ -29,8 +29,10 @@ const Feedback = () => {
           </div>
 
           {/* section 22222 */}
-          <div className="md:w-[900px] relative  flex justify-center items-center ">
-            <Slider />
+          <div className="md:w-full md:mx-auto py-8 px-4 ">
+            <div className="flex  justify-center items-center">
+              <Slider />
+            </div>
           </div>
         </div>
       </div>

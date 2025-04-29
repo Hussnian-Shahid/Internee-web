@@ -177,21 +177,21 @@ const Content = () => {
           Start Teaching Today
         </div>
       </div>
-      <div className="md:w-8xl bg-white  md:mx-auto">
-        <div className="grid md:px-[250px] py-20 md:grid-cols-2 grid-cols-1   gap-10   ">
+      <div className="md:w-5xl bg-white  md:mx-auto">
+        <div className="grid  pb-10 md:grid-cols-2 grid-cols-1   gap-10   ">
           {contents.map((content, index) => {
             return (
-              <div key={content.id} className=" p-10 rounded-2xl shadow-xl">
+              <div key={content.id} className=" p-8 rounded-2xl shadow-xl">
                 <div className="flex">
                   <div className="bg-bg-primary rounded-xl px-4 py-3 ">
                     <div>{content.image1}</div>
                   </div>
                 </div>
-                <div className='md:text-2xl font-semibold py-5' >{content.titel}</div>
+                <div className='md:text-2xl font-semibold pb-2 pt-5 ' >{content.titel}</div>
                 <div>{content.desc}</div>
                 <div className="flex items-center text-center">
-                  <div className="text-primary text-xl cursor-pointer ">{content.more}</div>
-                  <div className="pt-1">{content.out}</div>
+                  <div className="text-primary text-lg pt-4 cursor-pointer hover:text-secondry ">{content.more}</div>
+                  <div className="pt-5">{content.out}</div>
                 </div>
               </div>
             );

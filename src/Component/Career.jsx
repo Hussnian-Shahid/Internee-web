@@ -1,6 +1,29 @@
 import React from 'react'
 
 const Career = () => {
+
+  const boxs = [
+    {
+      id:1,
+      value:"1000+",
+      title:"Active Internship"
+    },
+    {
+      id:2,
+      value:"500+",
+      title:"Partner Companies"
+    },
+    {
+      id:3,
+      value:"10,000+",
+      title:"Success Stories"
+    },
+    {
+      id:4,
+      value:"50+",
+      title:"Industry Sector"
+    },
+    ]
   return (
     <div className="md:w-full  font-urbanist relative">
       <div className="absolute inset-0 bg-[url('/service.jpeg')] bg-no-repeat bg-cover bg-center filter blur-md"></div>
@@ -10,7 +33,7 @@ const Career = () => {
 
       <div className="relative pb-20">
         <div className="md:max-w-6xl mx-auto px-4">
-          <div className="flex justify-center pt-30 items-center">
+          <div className="flex justify-center pt-25 items-center">
             <div className="flex justify-center items-center gap-3 bg-bg-primary rounded-full p-4 mb-5">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -34,48 +57,32 @@ const Career = () => {
           <div className="text-center font-bold text-3xl md:text-5xl">
             <div>Launch your Career with internee.pk</div>
           </div>
-          <div className="text-center md:px-53 py-5 md:py-10 text-[20px] md:text-xl">
+          <div className="text-center md:px-40   py-5 md:pb-10 md:pt-5 text-[20px] md:text-lg">
             Pakistan's innovative platform for career growth and professional
             development. Join our<strong> virtual internships</strong> to gain
             practical experience and kickstart your professional journey.
           </div>
 
           {/* four box */}
-          <div className="grid md:grid-cols-4 grid-cols-2 md:gap-10 gap-5 pt-10 text-center ">
+          <div className="grid md:grid-cols-4 grid-cols-2 md:gap-10 gap-5 pt-7 text-center ">
             {/* box1 */}
-            <div className="bg-white rounded-2xl px-10 py-8 flex flex-col justify-center items-center ">
-              <div className="font-urbanist text-primary font-semibold text-3xl">
-                1000+
-              </div>
-              <div>Active Internships</div>
-            </div>
-            {/* box2 */}
-            <div className="bg-white rounded-2xl px-10 py-8 flex flex-col justify-center items-center ">
-              <div className="font-urbanist text-primary font-semibold text-3xl">
-                500+
-              </div>
-              <div>Partner Companies</div>
-            </div>
-            {/* box 3 */}
-            <div className="bg-white rounded-2xl px-10 py-8 flex flex-col justify-center items-center ">
-              <div className="font-urbanist text-primary font-semibold text-3xl">
-                10,000+
-              </div>
-              <div>Success Stories</div>
-            </div>
-            {/* box 4 */}
-            <div className="bg-white rounded-2xl px-10 py-8 flex flex-col justify-center items-center ">
-              <div className="font-urbanist text-primary font-semibold text-3xl">
-                50+
-              </div>
-              <div>Industry Sections</div>
-            </div>
+            {boxs.map((box,index) => {
+              return (
+                <div key={box.id} className="bg-white rounded-2xl px-10 py-5 flex flex-col justify-center items-center ">
+                  <div className="font-urbanist text-primary font-semibold text-3xl">
+                    {box.value}
+                  </div>
+                  <div>{box.title}</div>
+                </div>
+              );
+            }) }
+            
           </div>
 
           {/* three box */}
-          <div className="grid md:grid-cols-3 grid-cols-1 py-20 gap-10">
+          <div className="grid md:grid-cols-3 grid-cols-1 pb-10  pt-15 gap-10">
             {/* box1 */}
-            <div className="bg-white rounded-2xl p-10">
+            <div className="bg-white rounded-2xl p-8">
               <div className="flex justify-start ">
                 <div className="bg-bg-primary rounded-xl p-3">
                   <svg
@@ -227,7 +234,7 @@ const Career = () => {
               </div>
             </div>
             {/* box2 */}
-            <div className="bg-white rounded-2xl p-10">
+            <div className="bg-white rounded-2xl p-8">
               <div className="flex justify-start ">
                 <div className="bg-bg-primary rounded-xl p-3">
                   <svg
@@ -382,7 +389,7 @@ const Career = () => {
               </div>
             </div>
             {/* box3 */}
-            <div className="bg-white rounded-2xl p-10">
+            <div className="bg-white rounded-2xl p-8">
               <div className="flex justify-start ">
                 <div className="bg-bg-primary rounded-xl p-3">
                   <svg
@@ -676,7 +683,7 @@ const Career = () => {
             <div className="md:text-3xl text-xl font-bold py-8">
               Begin Your Professional Journey with Internee.pk
             </div>
-            <div className="md:px-75 text-[16px] md:text-[20px] pb-8">
+            <div className="md:px-60 text-sm md:text-[20px] pb-8">
               Join our
               <strong> virtual internships</strong>
               program and transform your career prospects with hands-on
@@ -686,7 +693,7 @@ const Career = () => {
             <div className="flex flex-col md:flex-row  justify-center items-center gap-5">
             {/* button 1 */}
               <div className="flex justify-center items-center">
-                <div className="flex justify-center items-center px-10 py-3 hover:bg-secondry cursor-pointer bg-primary text-white font-bold rounded-2xl md:text-xl">
+                <div className="flex justify-center items-center px-10 py-3 hover:bg-secondry cursor-pointer bg-primary text-white font-bold rounded-2xl md:text-lg">
                   Explore Opportunities
                   <span>
                     <svg
@@ -710,7 +717,7 @@ const Career = () => {
               {/* button 2 */}
 
               <div className="flex justify-center items-center shadow-md rounded-2xl ">
-                <div className="flex justify-center items-center px-10 py-3  cursor-pointer hover:bg-[#f3f3f5] bg-white text-primary  md:text-xl font-bold rounded-2xl">
+                <div className="flex justify-center items-center px-10 py-3  cursor-pointer hover:bg-[#d7d7d9] bg-white text-primary  md:text-lg font-bold rounded-2xl">
                   View Programs
                   <span>
                     <svg

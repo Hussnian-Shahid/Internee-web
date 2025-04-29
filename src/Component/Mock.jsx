@@ -84,7 +84,7 @@ const Mock = () => {
             {/* section 2 */}
             <div className="w-full grid grid-cols-1 gap-5">
               {/* box1 */}
-              <div className="p-10 bg-white flex  gap-5 rounded-2xl">
+              <div className="p-7 bg-white flex  gap-5 rounded-2xl">
                 <div className="flex  flex-col  gap-3">
                   <div className="inline-block">
                     <div className="bg-bg-primary px-3 rounded-xl py-3">
@@ -105,11 +105,11 @@ const Mock = () => {
                     </div>
                   </div>
                 </div>
-                <div className="flex flex-col pt-2 gap-3">
-                  <div className="font-semibold  md:text-xl">
+                <div className="flex flex-col gap-3">
+                  <div className="font-semibold  md:text-lg">
                     Realistic AI Interview Simulations{" "}
                   </div>
-                  <div className="">
+                  <div className="text-sm">
                     Simulate real interview environments powered by AI. Perfect
                     for students seeking
                     <strong> online internship interview practice</strong> or
@@ -119,7 +119,7 @@ const Mock = () => {
               </div>
 
               {/* box2 */}
-              <div className="p-10 bg-white flex  gap-5 rounded-2xl">
+              <div className="p-7 bg-white flex  gap-5 rounded-2xl">
                 <div className="flex  flex-col  gap-3">
                   <div className="inline-block">
                     <div className="bg-bg-primary px-3 rounded-xl py-3">
@@ -148,11 +148,11 @@ const Mock = () => {
                     </div>
                   </div>
                 </div>
-                <div className="flex flex-col pt-2 gap-3">
-                  <div className="font-semibold  md:text-xl">
+                <div className="flex flex-col  gap-3">
+                  <div className="font-semibold  md:text-lg">
                     Smart Feedback with AI{" "}
                   </div>
-                  <div className="">
+                  <div className="text-sm">
                     Instantly analyze your answers, tone, and relevance. Improve
                     every time with feedback tailored for
                     <strong>virtual internship candidates</strong>.
@@ -162,7 +162,7 @@ const Mock = () => {
 
               {/* box3 */}
             
-              <div className="p-10 bg-white flex  gap-5 rounded-2xl">
+              <div className="p-7 bg-white flex  gap-5 rounded-2xl">
                 <div className="flex  flex-col  gap-3">
                   <div className="inline-block">
                     <div className="bg-bg-primary px-3 rounded-xl py-3">
@@ -185,11 +185,11 @@ const Mock = () => {
                     </div>
                   </div>
                 </div>
-                <div className="flex flex-col pt-2 gap-3">
-                  <div className="font-semibold  md:text-xl">
+                <div className="flex flex-col gap-3">
+                  <div className="font-semibold  md:text-lg">
                     Pracitice Interviews for{" "}
                   </div>
-                  <div className="">
+                  <div className="text-sm">
                     Pracitice Interviews for{" "}
                     <strong>software engineering </strong> ,{" "}
                     <strong>Product Management</strong>,{" "}

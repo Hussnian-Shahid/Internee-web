@@ -144,9 +144,9 @@ const Build = () => {
 
         {/* final box */}
 
-        <div className=" rounded-2xl text-center bg-[#f6f8f1]">
-          <div className="flex justify-center pt-10  items-center">
-            <div className="flex justify-center items-center gap-3 bg-bg-primary rounded-full p-4 mb-5">
+        <div className=" rounded-2xl text-center p-7 bg-[#f6f8f1]">
+          <div className="flex justify-center md:pt-10   items-center">
+            <div className="flex justify-center items-center gap-3 bg-bg-primary rounded-full px-4 py-2 mb-5">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -165,10 +165,10 @@ const Build = () => {
               <div className="text-primary">Monetize Your Expertise</div>
             </div>
           </div>
-          <div className="text-2xl font-bold py-5">
+          <div className="text-2xl font-bold pt-0 py-5">
             Share Your Knowledge & Earn{" "}
           </div>
-          <div className="md:px-60 text-[20px] pb-8">
+          <div className="md:px-60 text-sm md:pb-20">
             Are you an AI expert? Share your knowledge through courses,
             tutorials, or content. Build your personal brand and generate income
             while helping others succeed in their AI careers.

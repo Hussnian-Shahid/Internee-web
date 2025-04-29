@@ -30,8 +30,8 @@ const Program = () => {
       <div className="md:max-w-6xl text-center px-4 md:mx-auto  py-20">
         {/* section no 1 */}
         <div>
-          <div className="font-bold py-6 md:text-6xl text-4xl">Graduate Program</div>
-          <div className="text-gray-700 md:px-50 text-xl ">
+          <div className="font-bold py-6 md:text-7xl text-4xl">Graduate Program</div>
+          <div className="text-gray-700 md:px-30 text-xl ">
             Explore our comprehensive graduate programs designed to advance your
             career and expand your knowledge.
           </div>
@@ -44,7 +44,7 @@ const Program = () => {
             return (
               <div
                 key={explore.id}
-                className="rounded-2xl shadow-md hover:shadow-lg transition hover:scale-110 cursor-pointer duration-150  "
+                className="rounded-2xl shadow-md group hover:shadow-lg transition hover:scale-102 cursor-pointer duration-300  "
               >
                 <img
                   className="md:h-65 w-full rounded-2xl"
@@ -52,11 +52,11 @@ const Program = () => {
                   alt=""
                 />
                 <div className="p-5">
-                  <div className="text-center font-bold text-[27px] md:px-3 pb-2 ">
+                  <div className="text-center group-hover:text-primary font-bold text-[27px] md:px-3 pb-2 ">
                     {explore.title}
                   </div>
                   <div
-                    className="text-gray-700 text-center px-5 text-base
+                    className="text-gray-700 text-center  text-base
                   /5 "
                   >
                     {explore.desc}

@@ -8,14 +8,13 @@ const Student = () => {
   return (
     <>
       <Navbar />
-      <div className="w-full relative max-h-125">
+      <div className="w-full relative h-[95vh]   md:max-h-125">
         <div className="absolute inset-0 bg-[url('/service4.jpeg')] bg-no-repeat bg-cover bg-center filter  "></div>
         <div className="absolute inset-0 bg-black/35"></div>
 
-        <div className="absolute inset-0 bg-white/0"></div>
         <div className="md:w-6xl md:mx-auto relative ">
           {/* title */}
-          <div className="pt-50 px-15  py-5 text-white  font-semibold text-5xl md:text-6xl  ">
+          <div className="md:pt-50 pt-40 px-15  py-5 text-white  font-semibold text-5xl md:text-6xl  ">
             <div>Internee.pk</div>
             <div>Student Ambassadors</div>
           </div>
@@ -62,8 +61,8 @@ const Student = () => {
             </div>
 
             <div className="md:pt-30 md:px-40   relative ">
-              <img className="h-140 rounded-2xl" src="/service5.jpeg" alt="" />
-              <div className="absolute md:top-65 md:left-90 rounded-2xl shadow-lg  bg-white md:w-160 md:p-10 ">
+              <img className="h-115 rounded-2xl" src="/service5.jpeg" alt="" />
+              <div className="absolute md:top-50 md:left-82 rounded-2xl shadow-lg  bg-white md:w-130 md:p-10 ">
                 <div className="font-bold text-6xl ">
                   <div>Unlock Your</div>
                   <div className="pt-1">Potential</div>

@@ -21,24 +21,24 @@ const Navbar = () => {
         </div>
         <div className="md:flex hidden justify-center items-center gap-7 text-[14px] font-sans  ">
           <Link to="/">
-            <div className="hover:text-primary cursor-pointer">Home</div>
+            <div className="hover:text-primary   cursor-pointer">Home</div>
           </Link>
           <Link to="/internship">
-            <div className="hover:text-primary cursor-pointer">Internship</div>
+            <div className="hover:text-primary   cursor-pointer">Internship</div>
           </Link>
           <Link to="/graduate program">
-            <div className="hover:text-primary cursor-pointer">
+            <div className="hover:text-primary   cursor-pointer">
               Graduate Program
             </div>
           </Link>
           <Link to="/student ambassador">
-            <div className="hover:text-primary cursor-pointer">
+            <div className="hover:text-primary   cursor-pointer">
               Student Ambassador
             </div>
           </Link>
         </div>
         <div className="md:flex hidden cursor-pointer justify-center items-center gap-4">
-          <button className="bg-primary cursor-pointer text-white px-5 py-2 font-sans rounded-xl hover:bg-white hover:text-black border-[1px] border-primary transition-all duration-300">
+          <button className="bg-primary cursor-pointer text-white px-5 py-2 font-sans rounded-xl hover:bg-white hover:text-black border-[1px] border-primary transition-all shadow-lg duration-300">
             Job Portal
           </button>
           <button className="bg-white text-black px-5 py-2 rounded-xl hover:bg-primary hover:text-white  transition-all cursor-pointer border-[1px] border-primary shadow-lg duration-300">

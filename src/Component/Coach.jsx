@@ -2,7 +2,7 @@ import React from 'react'
 
 const Coach = () => {
   return (
-    <div className="w-full py-20 px-4">
+    <div className="w-full pb-20 px-4">
       <div className="md:max-w-6xl md:mx-auto flex justify-center flex-col items-center">
         <div className="font-semibold text-center md:text-start text-4xl pb-20">
           Why Choose AI Career Coach?

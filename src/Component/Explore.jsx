@@ -1,5 +1,6 @@
 import React from 'react'
 import Footer from './Footer';
+import { Link } from 'react-router-dom';
 
 const Explore = () => {
    const Apply2 = [
@@ -60,7 +61,7 @@ const Explore = () => {
       ]
     return (
         <>
-      <div className="bg-[#f3f4f6] md:max-w-[1450px] md:mx-auto  rounded-xl px-4  mx-4   font-urbanist md:px-6 pb-20 ">
+      <div className="bg-[#f3f4f6] md:max-w-6xl md:mx-auto  rounded-xl px-4  mx-4   font-urbanist md:px-6 pb-20 ">
         <div className="flex justify-center items-center md:pt-15 pt-10  ">
           <div className="font-urbanist text-center  font-black text-4xl">
             Explore Internship Categories
@@ -77,7 +78,7 @@ const Explore = () => {
             {Apply2.map((apply, index) => {
               return (
                 <div
-                  className=" shadow-md hover:shadow-lg transition hover:scale-110 cursor-pointer duration-150 rounded-2xl bg-white"
+                  className=" shadow-md hover:shadow-lg transition hover:scale-102  cursor-pointer duration-300 rounded-2xl bg-white"
                   key={apply.id}
                 >
                   <img
@@ -90,9 +91,11 @@ const Explore = () => {
                       {apply.title}
                     </div>
                     <div className="flex justify-center bg-bg-primary  cursor-pointer items-center p-5   ">
-                      <div className="text-white bg-primary text-center rounded-xl  px-23 md:px-30 py-2  text-[18px] ">
+                      <Link to="/apply">
+                      <div className="text-white bg-primary text-center rounded-xl  px-23 md:px-23 py-2  text-[18px] ">
                         {apply.enter}
                       </div>
+                      </Link>
                     </div>
                   </div>
                 </div>
